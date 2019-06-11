@@ -6,6 +6,9 @@ import os
 from scipy.misc import imread
 import platform
 
+# The following code is used for parsing and loading the CIFAR-10 datasets and 
+# is borowed entirely from Stanford's CS 231N source code. 
+
 def load_pickle(f):
     version = platform.python_version_tuple()
     if version[0] == '2':
