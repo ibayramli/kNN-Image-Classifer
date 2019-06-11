@@ -5,5 +5,7 @@ In  this repo, I build a k-Nearest Neighborhood image classifier on the CIFAR-10
 To run this code, you must first obtain the CIFAR-10 dataset by first running the following shell code:
 
   wget http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+  
   tar -xzvf cifar-10-python.tar.gz
+  
   rm cifar-10-python.tar.gz 
