@@ -56,7 +56,7 @@ print(X_train.shape, X_test.shape)
 
 
 # %%
-from cs231n.classifiers import KNearestNeighbor
+from knn_functions import KNearestNeighbor
 
 # %% [markdown]
 # ###Training.
